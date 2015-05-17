@@ -29,5 +29,13 @@ def render_submissions_site():
 @app.route("/submission")
 def render_submission_site():
     return render_template('submission.html')
+
+@app.route("/discussions")
+def render_discussions_site():
+    return render_template('discussions.html')
+
+@app.route("/discussion")
+def render_discussion_site():
+    return render_template('discussion.html')
 if __name__ == "__main__":
     app.run()
