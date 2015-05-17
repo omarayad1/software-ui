@@ -47,8 +47,21 @@ def render_live_site():
 def render_profile_site():
     return render_template('profile.html')
 
-@app.route("/profileEmail")
+@app.route("/profile-email")
 def render_profile_email_site():
     return render_template('profile-email.html')
+
+@app.route("/inbox")
+def render_inbox_site():
+    return render_template('inbox.html')
+
+@app.route("/message")
+def render_message_site():
+    return render_template('message.html')
+
+
+@app.route("/sendMessage")
+def render_send_message_site():
+    return render_template('sendMessage.html')
 if __name__ == "__main__":
     app.run()
