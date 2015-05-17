@@ -10,7 +10,6 @@
   <link rel="stylesheet" href="../static/style.css"/ >
   <script src="../static/components/jquery/dist/jquery.min.js"></script>
   <script src="../static/components/bootstrap/dist/js/bootstrap.min.js"></script>
-  
 </head>
 <body>
 <div class="container">
@@ -33,7 +32,7 @@
         </div>
         <div class="profile-usermenu">
           <ul class="nav">
-            <li class="active">
+            <li>
               <a href="/courseMat">
               <i class="glyphicon glyphicon-home"></i>
               Course Material </a>
@@ -48,7 +47,7 @@
               <i class="glyphicon glyphicon-ok"></i>
               Live Stream </a>
             </li>
-            <li>
+            <li class="active">
               <a href="/submissions">
               <i class="glyphicon glyphicon-flag"></i>
               Submissions </a>
@@ -81,21 +80,27 @@
         </div><!--/.container-fluid -->
       </nav>
   </div>
-            <div class="profile-content">
-        <div class="list-group">
-  <a href="#" class="list-group-item">
-    <h4 class="list-group-item-heading">Assignments &nbsp;<span class="glyphicon glyphicon-folder-open pull-right"></span></h4>
-    <p class="list-group-item-text">Folder - last updated: 16/04/15</p>
-  </a>
-  <a href="#" class="list-group-item">
-    <h4 class="list-group-item-heading">Lecture Slides &nbsp;<span class="glyphicon glyphicon-folder-open pull-right"></span></h4>
-    <p class="list-group-item-text">Folder - last updated: 16/04/15</p>
-  </a>
-  <a href="#" class="list-group-item">
-    <h4 class="list-group-item-heading">Syllabus.pdf &nbsp;<span class="glyphicon glyphicon-file pull-right"></span></h4>
-    <p class="list-group-item-text">PDF - last updated: 16/04/15</p>
-  </a>
-</div>
+            <div class="profile-content" style="color:#eee;">
+                <div class="submission-title">
+                  <h3>Assignment 1 <span class="pull-right">95/100</span></h3>
+                  <p>last updated: 16/04/15</p>
+                </div>
+                <div class="submission-content">
+                          <div class="list-group">
+                      <a href="#" class="list-group-item">
+                        <h4 class="list-group-item-heading">Question 1<span class="pull-right glyphicon glyphicon-ok" style="color: green;"></span></h4>
+                        <p class="list-group-item-text">10/10</p>
+                      </a>
+                      <a href="#" class="list-group-item">
+                        <h4 class="list-group-item-heading">Question 2<span class="pull-right  glyphicon glyphicon-ok" style="color: green;"></span></h4>
+                        <p class="list-group-item-text">30/30</p>
+                      </a>
+                      <a href="#" class="list-group-item">
+                        <h4 class="list-group-item-heading">Question 3<span class="pull-right  glyphicon glyphicon-remove" style="color: red;"></span></h4>
+                        <p class="list-group-item-text">55/60 - wrong definition of whatever</p>
+                      </a>
+                    </div>
+                </div>
             </div>
     </div>
   </div>
