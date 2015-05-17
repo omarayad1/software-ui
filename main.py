@@ -18,5 +18,9 @@ def render_signup_site():
 def render_dashboard_site():
     return render_template('dashboard.html')
 
+@app.route("/courseMat")
+def render_course_material_site():
+    return render_template('course-material.html')
+
 if __name__ == "__main__":
     app.run()
