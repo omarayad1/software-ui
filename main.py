@@ -25,5 +25,9 @@ def render_course_material_site():
 @app.route("/submissions")
 def render_submissions_site():
     return render_template('submissions.html')
+
+@app.route("/submission")
+def render_submission_site():
+    return render_template('submission.html')
 if __name__ == "__main__":
     app.run()
