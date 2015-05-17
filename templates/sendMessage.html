@@ -43,6 +43,22 @@
     <![endif]-->
   <style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;display: block;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;padding: 5px 5px 8px 5px;font: 10px arial, san serif;text-align: left;}</style></head>
 
+  <style>
+
+    .bs-example {
+    margin-right: 0;
+      margin-left: 0;
+      background-color: #fff;
+      border-color: #ddd;
+      border-width: 1px;
+      border-radius: 4px 4px 0 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      position: relative;
+      padding: 45px 15px 15px;
+    }
+  </style>
+
   <body style="">
   <!-- container section start -->
   <section id="container" class="">
@@ -219,14 +235,13 @@
       <section id="main-content">
           <section class="wrapper">            
               <!--overview start-->
+              <section style="padding-right: 12em">
               <div class="row" style="text-align: center">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Dashboard</h1>
-                    <a href="/public" class="">
-                          <span>Go To Public Site</span>
-                      </a>
+                    <h1 class="page-header">Send Message</h1>
                 </div>
             </div>
+            </section>
             <br><br><br><br><br>
               
  
@@ -237,159 +252,16 @@
             
               
                 
-            <div class="row">
+            <div class="row" style="padding-left: 6em">
                 
                 <div class="col-lg-9 col-md-12">    
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h2><strong>Registered Courses</strong></h2>
-                        </div>
-                        <div class="panel-body">
-                            <table class="table bootstrap-datatable countries">
-                                <thead>
-                                    <tr>
-                                        <th>Course Name</th>
-                                        <th>Users</th>
-                                        <th>Last Update</th>
-                                        <th>Grade</th>
-                                    </tr>
-                                </thead>   
-                                <tbody>
-                                    <tr>
-                                        <td>Some Course</td>
-                                        <td>2563</td>
-                                        <td>Assignment 3 was posted 14/4/2015</td>
-                                        <td>
-                                            95/100  
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Some Course</td>
-
-                                        <td>2563</td>
-                                        <td>Assignment 3 was posted 14/4/2015</td>
-                                        <td>
-                                            95/100 
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-    
-                    </div>  
-
-            
-                
-
-              <!-- project team & activity start -->
-          <div class="row">
-            <div class="col-md-4 portlets">
-              <!-- Widget -->
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <div class="pull-left">Message</div>
-
-                  <div class="clearfix"></div>
-                </div>
-
-                <div class="panel-body">
-                  <!-- Widget content -->
-                  <div class="padd sscroll">
-                    
-                    <ul class="chats">
-
-                      <!-- Chat by us. Use the class "by-me". -->
-                      <li class="by-me">
-                        <!-- Use the class "pull-left" in avatar -->
-                        <div class="avatar pull-left">
-                          <img src="../static/img/user.jpg" alt="">
-                        </div>
-
-                        <div class="chat-content">
-                          <!-- In meta area, first include "name" and then "time" -->
-                          <div class="chat-meta">John Doe <span class="pull-right">3 hours ago</span></div>
-                          Vivamus diam elit diam, consectetur dapibus adipiscing elit.
-                          <div class="clearfix"></div>
-                        </div>
-                      </li> 
-
-                      <!-- Chat by other. Use the class "by-other". -->
-                      <li class="by-other">
-                        <!-- Use the class "pull-right" in avatar -->
-                        <div class="avatar pull-right">
-                          <img src="../static/img/user22.png" alt="">
-                        </div>
-
-                        <div class="chat-content">
-                          <!-- In the chat meta, first include "time" then "name" -->
-                          <div class="chat-meta">3 hours ago <span class="pull-right">Jane Doe</span></div>
-                          Vivamus diam elit diam, consectetur fconsectetur dapibus adipiscing elit.
-                          <div class="clearfix"></div>
-                        </div>
-                      </li>   
-
-                      <li class="by-me">
-                        <div class="avatar pull-left">
-                          <img src="../static/img/user.jpg" alt="">
-                        </div>
-
-                        <div class="chat-content">
-                          <div class="chat-meta">John Doe <span class="pull-right">4 hours ago</span></div>
-                          Vivamus diam elit diam, consectetur fermentum sed dapibus eget, Vivamus consectetur dapibus adipiscing elit.
-                          <div class="clearfix"></div>
-                        </div>
-                      </li>  
-
-                      <li class="by-other">
-                        <!-- Use the class "pull-right" in avatar -->
-                        <div class="avatar pull-right">
-                          <img src="../static/img/user22.png" alt="">
-                        </div>
-
-                        <div class="chat-content">
-                          <!-- In the chat meta, first include "time" then "name" -->
-                          <div class="chat-meta">3 hours ago <span class="pull-right">Jane Doe</span></div>
-                          Vivamus diam elit diam, consectetur fermentum sed dapibus eget, Vivamus consectetur dapibus adipiscing elit.
-                          <div class="clearfix"></div>
-                        </div>
-                      </li>                                                                                  
-
-                    </ul>
-
-                  </div>
-                  <!-- Widget footer -->
-                  <div class="widget-foot">
+                    <div class="list-group">
+                      <a href="#" class="list-group-item active">
+                        <h4 class="list-group-item-heading"><textarea style="height: 2em"class="form-control" rows="5" placeholder="Recipients"></textarea></h4>
+                        <p class="list-group-item-text"><textarea style="height: 2em"class="form-control" rows="5" placeholder="Subject"></textarea></p>
+                      </a>
+                      <textarea style="height: 20em"class="form-control" rows="5" placeholder="Message Body"></textarea>
                       
-                      <form class="form-inline">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Type your message here...">
-                        </div>
-                        <button type="submit" class="btn btn-info">Send</button>
-                      </form>
-
-
-                  </div>
-                </div>
-
-
-              </div> 
-            </div>
-
-        
-        <div class="row">
-            <div class="col-md-6 portlets">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                  <h2><strong>Calendar</strong></h2>
-                 
-                </div><br><br><br>
-                <div class="panel-body">
-                  <!-- Widget content -->
-                  
-                    <!-- Below line produces calendar. I am using FullCalendar plugin. -->
-                    <div id="calendar" class="fc">
-            
-                </div>
               </div> 
                
             </div>
