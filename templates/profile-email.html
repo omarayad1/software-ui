@@ -1,0 +1,100 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Software Engineering - Profile</title>
+
+  <link rel="stylesheet" href="../static/components/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../static/components/bootstrap/dist/css/bootstrap-theme.min.css" />
+  <link rel="stylesheet" href="../static/style.css"/ >
+  <script src="../static/components/jquery/dist/jquery.min.js"></script>
+  <script src="../static/components/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row profile">
+    <div class="col-md-3">
+      <div class="profile-sidebar">
+        <!-- SIDEBAR USERPIC -->
+        <div class="profile-userpic">
+          <img src="http://placehold.it/150x150" class="img-responsive" alt="">
+        </div>
+        <!-- END SIDEBAR USERPIC -->
+        <!-- SIDEBAR USER TITLE -->
+        <div class="profile-usertitle">
+          <div class="profile-usertitle-name">
+            John Doe
+          </div>
+          <div class="profile-usertitle-job">
+            Student
+          </div>
+        </div>
+        <div class="profile-usermenu">
+          <ul class="nav">
+            <li>
+              <a href="#">
+              <i class="glyphicon glyphicon-user"></i>
+              Account Information </a>
+            </li>
+            <li class="active">
+              <a href=".sendMessage">
+              <i class="glyphicon glyphicon-send"></i>
+              Send Message </a>
+            </li>
+
+          </ul>
+        </div>
+        <!-- END MENU -->
+      </div>
+    </div>
+    <div class="col-md-9">
+    <div class="container navbar-container">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="/">VUC</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="/">Home</a></li>
+              <li><a href="/public">Public Site</a></li>
+              <li><a href="#">Settings</a></li>
+              <li><a href="#">Logout</a></li>
+            </ul>
+        <form class="navbar-form navbar-left pull-right search" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+          </form>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+  </div>
+  <br><br><br><br>
+      <div class="profile-content">
+        
+        <div>
+                
+                <div>    
+                    <div class="list-group" style="text-align:center">
+                      <a href="#" class="list-group-item active">
+                        <h4 class="list-group-item-heading"><textarea style="height: 2em"class="form-control" rows="5" placeholder="Recipients"></textarea></h4>
+                        <p class="list-group-item-text"><textarea style="height: 2em"class="form-control" rows="5" placeholder="Subject"></textarea></p>
+                      </a>
+                      <textarea style="height: 20em"class="form-control" rows="5" placeholder="Message Body"></textarea>
+                      <br><br>
+                      <button class="btn btn-lg btn-success">Send</button>
+                      
+                  </div> 
+               
+            </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<br>
+<br>
+</body>
+</html>
