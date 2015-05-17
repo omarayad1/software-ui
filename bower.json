@@ -1,0 +1,27 @@
+{
+  "directory": "static/components/",
+  "name": "software-ui",
+  "version": "0.0.1",
+  "authors": [
+    "omarayad1 <omarayad1@gmail.com>"
+  ],
+  "description": "User Interface for Software Project",
+  "main": "main.py",
+  "keywords": [
+    "ui",
+    "software",
+    "engineering"
+  ],
+  "license": "MIT",
+  "homepage": "software.ayad.me",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}
