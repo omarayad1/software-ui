@@ -37,5 +37,18 @@ def render_discussions_site():
 @app.route("/discussion")
 def render_discussion_site():
     return render_template('discussion.html')
+
+
+@app.route("/live")
+def render_live_site():
+    return render_template('live.html')
+
+@app.route("/profile")
+def render_profile_site():
+    return render_template('profile.html')
+
+@app.route("/profileEmail")
+def render_profile_email_site():
+    return render_template('profile-email.html')
 if __name__ == "__main__":
     app.run()
